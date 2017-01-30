@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "station",
+          "type": "LIST_OF_STATIONS"
+        }
+      ],
+      "intent": "freeBikesIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "station",
+          "type": "LIST_OF_STATIONS"
+        }
+      ],
+      "intent": "setDefaultStationIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "station",
+          "type": "LIST_OF_STATIONS"
+        }
+      ],
+      "intent": "updateDefaultStationIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

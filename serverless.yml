@@ -1,0 +1,19 @@
+service: citybike-service
+frameworkVersion: ">=1.4.0 <2.0.0"
+provider:
+  name: aws
+  runtime: nodejs4.3
+  profile: serverless
+  region: eu-west-1
+  iamRoleStatements: # permissions for all of your functions can be set here
+    - Effect: Allow
+      Action:
+        - "dynamodb:*"
+      Resource: "arn:aws:dynamodb:${self:provider.region}:*:table/*"
+
+functions:
+  alexaHandler:
+    handler: CityBikeSkill.alexaRequest
+    events:
+       - alexaSkill
+    environment: ${file(./secrets.${opt:stage, self:provider.stage}.yml)}

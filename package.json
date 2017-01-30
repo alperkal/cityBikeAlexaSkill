@@ -1,0 +1,28 @@
+{
+  "name": "alexa",
+  "version": "1.0.0",
+  "description": "Citybike alexa skill as Aws lambda function",
+  "main": "CityBikeSkill.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.8",
+    "aws-sdk": "^2.38.0",
+    "dynamodb": "^0.3.6",
+    "eslint": "^3.14.1",
+    "eslint-config-node-services": "^1.0.6",
+    "eslint-config-nodejs": "^1.1.0",
+    "node-rest-client": "^2.0.1",
+    "node-uuid": "^1.4.8",
+    "serverless-helpers-js": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "CityBikeSkill.alexaRequest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://alperkal@bitbucket.org/alperkal/citybikewienalexaskillonlambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/alperkal/citybikewienalexaskillonlambda#readme"
+}

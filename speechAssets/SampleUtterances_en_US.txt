@@ -1,0 +1,7 @@
+freeBikesIntent How many free bikes are there in {station}
+freeBikesIntent How many free bikes are there
+freeBikesIntent {station}
+freeBikesIntent How many bikes in {station}
+freeBikesIntent bikes in {station}
+freeBikesIntent check {station}
+freeBikesIntent to check {station}

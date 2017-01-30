@@ -1,0 +1,9 @@
+freeBikesIntent Wie viele Fahrräder ist verfuegbar in {station}
+freeBikesIntent Wie viele Fahrräder ist verfuegbar in station {station}
+freeBikesIntent Wie viele Fahrräder ist verfuegbar
+freeBikesIntent Wie viele verfügbare Fahrräder gibt es in {station}
+freeBikesIntent Wie viele verfügbare Fahrräder gibt es in station {station}
+freeBikesIntent {station}
+freeBikesIntent Wie viele Fahrräder in {station}
+freeBikesIntent Fahrräder in {station}
+freeBikesIntent check {station}
